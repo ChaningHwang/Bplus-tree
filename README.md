@@ -2,8 +2,8 @@
 
 Java implementation of B+ tree.
 
-Input Format
-The first line in the input file Initialize(m) means creating a B+ tree with the order m (note: m may be
+##Input Format:
+###The first line in the input file Initialize(m) means creating a B+ tree with the order m (note: m may be
 different depending on input file). Each of the remaining lines specifies a B+ tree operation. The
 following is an example of an input file:
 Initialize(3)
@@ -27,8 +27,8 @@ Delete (234)
 Search(65)
 You can use integer as the type of the key and float/double as the type of the value.
 
-Output Format
-For Initialize, Insert and Delete query you should not produce any output.
+##Output Format:
+###For Initialize, Insert and Delete query you should not produce any output.
 For a Search query you should output the results on a single line using commas to separate values. The
 output for each search query should be on a new line. All output should go to a file named
 “output_file.txt”. If a search query does not return anything you should output “Null”.
